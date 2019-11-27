@@ -1,0 +1,267 @@
+alignment_arguments:
+  filter: -L 15 --no-unal --norc
+  genome: --no-unal -k 1
+  transcriptome: -L 15 --norc --no-unal
+clip_arguments: -u 1 -a AGATCGGAAGAGCACACGTCT --overlap=4 --trimmed-only --maximum-length=40
+  --minimum-length=15 --quality-cutoff=28
+deduplicate: true
+do_check_file_existence: true
+do_fastqc: true
+do_metadata: false
+do_rnaseq: false
+input:
+  fastq:
+    SRR1803146:
+    - ./accessions/SRR1803146/SRR1803146.fastq.gz
+    SRR1803147:
+    - ./accessions/SRR1803147/SRR1803147.fastq.gz
+    SRR1803148:
+    - ./accessions/SRR1803148/SRR1803148.fastq.gz
+    SRR1803149:
+    - ./accessions/SRR1803149/SRR1803149.fastq.gz
+    SRR1803150:
+    - ./accessions/SRR1803150/SRR1803150.fastq.gz
+    SRR1803151:
+    - ./accessions/SRR1803151/SRR1803151.fastq.gz
+    SRR1803152:
+    - ./accessions/SRR1803152/SRR1803152.fastq.gz
+    SRR1803153:
+    - ./accessions/SRR1803153/SRR1803153.fastq.gz
+    SRR1803154:
+    - ./accessions/SRR1803154/SRR1803154.fastq.gz
+    SRR1803155:
+    - ./accessions/SRR1803155/SRR1803155.fastq.gz
+    SRR1803156:
+    - ./accessions/SRR1803156/SRR1803156.fastq.gz
+    SRR1803157:
+    - ./accessions/SRR1803157/SRR1803157.fastq.gz
+    SRR1803158:
+    - ./accessions/SRR1803158/SRR1803158.fastq.gz
+    SRR1803159:
+    - ./accessions/SRR1803159/SRR1803159.fastq.gz
+    SRR1803160:
+    - ./accessions/SRR1803160/SRR1803160.fastq.gz
+    SRR1803161:
+    - ./accessions/SRR1803161/SRR1803161.fastq.gz
+    SRR1803162:
+    - ./accessions/SRR1803162/SRR1803162.fastq.gz
+    SRR1803163:
+    - ./accessions/SRR1803163/SRR1803163.fastq.gz
+    SRR1803164:
+    - ./accessions/SRR1803164/SRR1803164.fastq.gz
+    SRR1803165:
+    - ./accessions/SRR1803165/SRR1803165.fastq.gz
+    SRR1803166:
+    - ./accessions/SRR1803166/SRR1803166.fastq.gz
+    SRR1803167:
+    - ./accessions/SRR1803167/SRR1803167.fastq.gz
+    SRR1803168:
+    - ./accessions/SRR1803168/SRR1803168.fastq.gz
+    SRR1803169:
+    - ./accessions/SRR1803169/SRR1803169.fastq.gz
+    SRR1803170:
+    - ./accessions/SRR1803170/SRR1803170.fastq.gz
+    SRR1803171:
+    - ./accessions/SRR1803171/SRR1803171.fastq.gz
+    SRR1803172:
+    - ./accessions/SRR1803172/SRR1803172.fastq.gz
+    SRR1803173:
+    - ./accessions/SRR1803173/SRR1803173.fastq.gz
+    SRR1803174:
+    - ./accessions/SRR1803174/SRR1803174.fastq.gz
+    SRR1803175:
+    - ./accessions/SRR1803175/SRR1803175.fastq.gz
+    SRR1803176:
+    - ./accessions/SRR1803176/SRR1803176.fastq.gz
+    SRR1803177:
+    - ./accessions/SRR1803177/SRR1803177.fastq.gz
+    SRR1803178:
+    - ./accessions/SRR1803178/SRR1803178.fastq.gz
+    SRR1803179:
+    - ./accessions/SRR1803179/SRR1803179.fastq.gz
+    SRR1803180:
+    - ./accessions/SRR1803180/SRR1803180.fastq.gz
+    SRR1803181:
+    - ./accessions/SRR1803181/SRR1803181.fastq.gz
+    SRR1803182:
+    - ./accessions/SRR1803182/SRR1803182.fastq.gz
+    SRR1803183:
+    - ./accessions/SRR1803183/SRR1803183.fastq.gz
+    SRR1803184:
+    - ./accessions/SRR1803184/SRR1803184.fastq.gz
+    SRR1803185:
+    - ./accessions/SRR1803185/SRR1803185.fastq.gz
+    SRR1803186:
+    - ./accessions/SRR1803186/SRR1803186.fastq.gz
+    SRR1803187:
+    - ./accessions/SRR1803187/SRR1803187.fastq.gz
+    SRR1803188:
+    - ./accessions/SRR1803188/SRR1803188.fastq.gz
+    SRR1803189:
+    - ./accessions/SRR1803189/SRR1803189.fastq.gz
+    SRR1803190:
+    - ./accessions/SRR1803190/SRR1803190.fastq.gz
+    SRR1803191:
+    - ./accessions/SRR1803191/SRR1803191.fastq.gz
+    SRR1803192:
+    - ./accessions/SRR1803192/SRR1803192.fastq.gz
+    SRR1803193:
+    - ./accessions/SRR1803193/SRR1803193.fastq.gz
+    SRR1803194:
+    - ./accessions/SRR1803194/SRR1803194.fastq.gz
+    SRR1803195:
+    - ./accessions/SRR1803195/SRR1803195.fastq.gz
+  fastq_base: ''
+  metadata:
+    base: ''
+    files:
+      GSM1606107: ./rf_sample_data/metadata/GSM1606107.yml
+      GSM1606108: ./rf_sample_data/metadata/GSM1606108.yml
+  reference:
+    filter: ./rf_sample_data/filter/human_rtRNA*
+    regions: ./rf_sample_data/annotation/appris_human_24_01_2019_actual_regions.bed
+    transcript_lengths: ./rf_sample_data/annotation/appris_human_24_01_2019_selected.lengths.tsv
+    transcriptome: ./rf_sample_data/transcriptome/appris_human_24_01_2019_selected*
+  root_meta: ./project.yaml
+mapping_quality_cutoff: 2
+output:
+  individual_lane_directory: individual
+  intermediates:
+    alignment_ribo: alignment_ribo
+    bam_to_bed: bam_to_bed
+    base: intermediates
+    clip: clip
+    filter: filter
+    genome_alignment: genome_alignment
+    log: log
+    quality_filter: quality_filter
+    transcriptome_alignment: transcriptome_alignment
+  merged_lane_directory: merged
+  output:
+    base: output
+    fastqc: fastqc
+    log: log
+    ribo: ribo
+ribo:
+  coverage: true
+  left_span: 35
+  metagene_radius: 50
+  read_length:
+    max: 40
+    min: 15
+  ref_name: appris-v1
+  right_span: 10
+rnaseq:
+  bt2_argumments: -L 15  --no-unal
+  clip_arguments: -u 1 --quality-cutoff=28
+  deduplicate: false
+  fastq:
+    GSM1606107:
+    - ./rf_sample_data/fastq/rnaseq/GSM1606099/SRR1795409.fastq.gz
+    - ./rf_sample_data/fastq/rnaseq/GSM1606099/SRR1795410.fastq.gz
+    GSM1606108:
+    - ./rf_sample_data/fastq/rnaseq/GSM1606100/SRR1795411.fastq.gz
+    - ./rf_sample_data/fastq/rnaseq/GSM1606100/SRR1795412.fastq.gz
+    SRR1803146:
+    - ./accessions/SRR1803146/SRR1803146.fastq.gz
+    SRR1803147:
+    - ./accessions/SRR1803147/SRR1803147.fastq.gz
+    SRR1803148:
+    - ./accessions/SRR1803148/SRR1803148.fastq.gz
+    SRR1803149:
+    - ./accessions/SRR1803149/SRR1803149.fastq.gz
+    SRR1803150:
+    - ./accessions/SRR1803150/SRR1803150.fastq.gz
+    SRR1803151:
+    - ./accessions/SRR1803151/SRR1803151.fastq.gz
+    SRR1803152:
+    - ./accessions/SRR1803152/SRR1803152.fastq.gz
+    SRR1803153:
+    - ./accessions/SRR1803153/SRR1803153.fastq.gz
+    SRR1803154:
+    - ./accessions/SRR1803154/SRR1803154.fastq.gz
+    SRR1803155:
+    - ./accessions/SRR1803155/SRR1803155.fastq.gz
+    SRR1803156:
+    - ./accessions/SRR1803156/SRR1803156.fastq.gz
+    SRR1803157:
+    - ./accessions/SRR1803157/SRR1803157.fastq.gz
+    SRR1803158:
+    - ./accessions/SRR1803158/SRR1803158.fastq.gz
+    SRR1803159:
+    - ./accessions/SRR1803159/SRR1803159.fastq.gz
+    SRR1803160:
+    - ./accessions/SRR1803160/SRR1803160.fastq.gz
+    SRR1803161:
+    - ./accessions/SRR1803161/SRR1803161.fastq.gz
+    SRR1803162:
+    - ./accessions/SRR1803162/SRR1803162.fastq.gz
+    SRR1803163:
+    - ./accessions/SRR1803163/SRR1803163.fastq.gz
+    SRR1803164:
+    - ./accessions/SRR1803164/SRR1803164.fastq.gz
+    SRR1803165:
+    - ./accessions/SRR1803165/SRR1803165.fastq.gz
+    SRR1803166:
+    - ./accessions/SRR1803166/SRR1803166.fastq.gz
+    SRR1803167:
+    - ./accessions/SRR1803167/SRR1803167.fastq.gz
+    SRR1803168:
+    - ./accessions/SRR1803168/SRR1803168.fastq.gz
+    SRR1803169:
+    - ./accessions/SRR1803169/SRR1803169.fastq.gz
+    SRR1803170:
+    - ./accessions/SRR1803170/SRR1803170.fastq.gz
+    SRR1803171:
+    - ./accessions/SRR1803171/SRR1803171.fastq.gz
+    SRR1803172:
+    - ./accessions/SRR1803172/SRR1803172.fastq.gz
+    SRR1803173:
+    - ./accessions/SRR1803173/SRR1803173.fastq.gz
+    SRR1803174:
+    - ./accessions/SRR1803174/SRR1803174.fastq.gz
+    SRR1803175:
+    - ./accessions/SRR1803175/SRR1803175.fastq.gz
+    SRR1803176:
+    - ./accessions/SRR1803176/SRR1803176.fastq.gz
+    SRR1803177:
+    - ./accessions/SRR1803177/SRR1803177.fastq.gz
+    SRR1803178:
+    - ./accessions/SRR1803178/SRR1803178.fastq.gz
+    SRR1803179:
+    - ./accessions/SRR1803179/SRR1803179.fastq.gz
+    SRR1803180:
+    - ./accessions/SRR1803180/SRR1803180.fastq.gz
+    SRR1803181:
+    - ./accessions/SRR1803181/SRR1803181.fastq.gz
+    SRR1803182:
+    - ./accessions/SRR1803182/SRR1803182.fastq.gz
+    SRR1803183:
+    - ./accessions/SRR1803183/SRR1803183.fastq.gz
+    SRR1803184:
+    - ./accessions/SRR1803184/SRR1803184.fastq.gz
+    SRR1803185:
+    - ./accessions/SRR1803185/SRR1803185.fastq.gz
+    SRR1803186:
+    - ./accessions/SRR1803186/SRR1803186.fastq.gz
+    SRR1803187:
+    - ./accessions/SRR1803187/SRR1803187.fastq.gz
+    SRR1803188:
+    - ./accessions/SRR1803188/SRR1803188.fastq.gz
+    SRR1803189:
+    - ./accessions/SRR1803189/SRR1803189.fastq.gz
+    SRR1803190:
+    - ./accessions/SRR1803190/SRR1803190.fastq.gz
+    SRR1803191:
+    - ./accessions/SRR1803191/SRR1803191.fastq.gz
+    SRR1803192:
+    - ./accessions/SRR1803192/SRR1803192.fastq.gz
+    SRR1803193:
+    - ./accessions/SRR1803193/SRR1803193.fastq.gz
+    SRR1803194:
+    - ./accessions/SRR1803194/SRR1803194.fastq.gz
+    SRR1803195:
+    - ./accessions/SRR1803195/SRR1803195.fastq.gz
+  fastq_base: ''
+  filter_arguments: -L 15 --no-unal
+
