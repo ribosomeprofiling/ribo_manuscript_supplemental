@@ -24,12 +24,12 @@ __Number of Experiments:__ 50
 __Cell Line:__ Human lymphoblastoid cell lines. See also [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65912](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65912)
 
 __Notes:__ A single ribo file can contain 50 experiments with a file of size of ~110 MB.
-Due to file size limitations, we can only provide ribo files for the individual experiments as the merged ribo files exceed this limit.
-To generate the combined ribo file, you can combine these ribo files. For example:
+Due to GitHub file size limitations, in this repository, we can only store ribo files for the individual experiments as the merged ribo files exceed GitHub size limit. Note that, for actual usage, there is no limit on the size of a ribo file.
+To generate the combined ribo file, you can merge these ribo files using RiboPy. For example:
 
 ```
 cd cenik_et_al
-experiments=\`ls experiments/*ribo`
+experiments=`ls experiments/*ribo`
 ribopy merge all.ribo $experiments
 ```
 
