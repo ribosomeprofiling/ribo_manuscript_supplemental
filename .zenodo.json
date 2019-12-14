@@ -20,9 +20,7 @@
         "ribo-seq",
         "Python"
     ],
-    "description": "<p>Supplementary material for the Manuscript <q>RiboFlow, RiboR and RiboPy: An ecosystem for
-analyzing ribosome profiling data at read length
-resolution</q></p>",
+    "description": "<p>Supplementary material for the Manuscript <q>RiboFlow, RiboR and RiboPy: An ecosystem for analyzing ribosome profiling data at read length resolution</q></p>",
     "access_right": "open",
     "upload_type": "Supplementary material"
 }
