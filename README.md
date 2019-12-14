@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/224315626.svg)](https://zenodo.org/badge/latestdoi/224315626)
+
 # Supplementary Material for "RiboFlow, RiboR and RiboPy: An ecosystem for analyzing ribosome profiling data at read length resolution"
 
 We generated ribo files for three datasets: Cenik et al., Wu et al., and Sidrauski et al.
