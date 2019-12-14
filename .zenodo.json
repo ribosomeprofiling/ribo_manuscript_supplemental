@@ -1,0 +1,28 @@
+{
+    "creators": [ 
+        {
+            "name": "Ozadam, Hakan", 
+            "affiliation": "UT, Austin, TX, USA"
+        },
+        {
+            "name": "Geng, Michael",
+            "affiliation": "UT, Austin, TX, USA"
+        }
+        {
+            "name": "Cenik, Can",
+            "affiliation": "UT, Austin, TX, USA"
+        }
+    ], 
+    "keywords": [
+        "bioinformatics",
+        "genomics",
+        "ribosome",
+        "ribo-seq",
+        "Python"
+    ],
+    "description": "<p>Supplementary material for the Manuscript <q>RiboFlow, RiboR and RiboPy: An ecosystem for
+analyzing ribosome profiling data at read length
+resolution</q></p>",
+    "access_right": "open",
+    "upload_type": "Supplementary material"
+}
