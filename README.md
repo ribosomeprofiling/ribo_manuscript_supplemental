@@ -1,4 +1,4 @@
-# Supplemental Material for "RiboFlow, RiboR and RiboPy: An ecosystem for analyzing ribosome profiling data at read length resolution"
+# Supplementary Material for "RiboFlow, RiboR and RiboPy: An ecosystem for analyzing ribosome profiling data at read length resolution"
 
 We generated ribo files for three datasets: Cenik et al., Wu et al., and Sidrauski et al.
 
